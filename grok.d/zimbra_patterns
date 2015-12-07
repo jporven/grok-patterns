@@ -1,0 +1,2 @@
+#zimbra audit
+ZIMBRAAUDIT %{TIMESTAMP_ISO8601:logdate}\s+%{LOGLEVEL:level}\s+\[%{DATA:program}:%{URI}\]\s+\[%{DATA:clientdata}\]\s+%{WORD:type}\s+%{DATA}\s+cmd=%{WORD:cmd};\s+account=%{DATA:account};\s+protocol=%{DATA:protocol};%{DATA:authmsg}
